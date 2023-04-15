@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "dev": "ts-node-dev --respawn src/index.ts",
+        "reset": "firmata-party uno --debug --port /dev/ttyACM0 --reset"
+    },
+    "dependencies": {
+        "firmata": "^2.3.0",
+        "firmata-party": "^2.0.1",
+        "johnny-five": "^2.1.0",
+        "serialport": "^10.5.0"
+    },
+    "devDependencies": {
+        "@types/johnny-five": "^2.1.2"
+    }
+}
